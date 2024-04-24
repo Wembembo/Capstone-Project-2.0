@@ -1,0 +1,72 @@
+.gradient-background{
+    background: linear-gradient(300deg, #3F72AF, #DBE2EF, #112D4E);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+}
+
+.profile-img{
+    border-radius: 50%;
+    height: 250px;
+}
+
+.resume{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px
+}
+
+.Projects-Main{
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+h1{
+    font-family: Crimson-Text;
+
+}
+
+h2{
+    font-family: Crimson-Text;
+
+}
+
+h3{
+    font-family: Crimson-Text;
+
+}
+
+h4{
+    font-family: Crimson-Text;
+
+}
+
+h5{
+    font-family: Crimson-Text;
+
+}
+
+.Contact{
+    display: flexbox;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    gap: 15px;
+    justify-content: center;
+}
